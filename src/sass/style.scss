@@ -1,0 +1,36 @@
+body{
+    background-color: #0f0f0f !important;
+    p{
+        color: #fff;
+    }
+    li{
+        color: #fff;
+    }
+    span{
+        color: #fff;
+    }
+}
+.row{
+    margin: 0;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .input-group{
+        width: 80%;
+    }
+}
+.card{
+    background: none;
+    color: #fff;
+    border: 2px solid blue;
+}
+button{
+    &:hover{
+        color: #fff !important;
+    }
+}
+// .CardList{
+//     display: none !important;
+// }
